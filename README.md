@@ -177,11 +177,10 @@ The remainder is a disagreement in phase inside periodic classes. The two surfer
 
 ## Limitations
 
-- **One graph.** The data is a single university's web graph from 2002. The constants are properties of this graph.
-- **Two single-page starts.** One is the top-ranked page and one is a single random draw. They are not estimates for a typical page.
-- **Uniform teleporting only.** Personalised teleport distributions are not studied.
-- **Closed-class analysis at one α.** The long-run ratios use $`\pi`$ at $`\alpha = 0.85`$.
-- **Periods are not computed.** Periodicity is inferred from the effect of averaging, and the period of each class is not calculated.
+- The data is a single university's web graph from 2002. The constants are properties of this graph.
+- Personalised teleport distributions are not studied.
+- The long-run ratios use $`\pi`$ at $`\alpha = 0.85`$.
+- Periodicity is inferred from the effect of averaging, and the period of each class is not calculated.
 
 ## How to run
 
