@@ -6,9 +6,7 @@ Old project from 2024: I thought I'd finally clean it up and do a writeup to thr
 
 **Short answer:** The bound holds! On the Stanford web graph the long-run rate is exactly $`\alpha`$. How close the chain runs to the bound will depend on where it starts--- within a factor of 1.2 to 2.2 from a single page, and about 200 times better from the uniform distribution. We investigate the closed classes to understand this further.
 
-We are using Doeblin for the bound. I also reference Haveliwala and Kamvar (2003) to come to the eigenvalue result for PageRank. 
-
-This repository checks both against data and reports what the data adds.
+The bound has a short direct proof, given below: each step shrinks the total variation distance by a factor of at least α, because the teleport term is the same for every starting distribution and cancels. The chain also satisfies Doeblin’s condition, which is the general reason chains like this converge geometrically. For the second eigenvalue of the PageRank matrix I rely on Haveliwala and Kamvar (2003).
 
 ## The chain
 
